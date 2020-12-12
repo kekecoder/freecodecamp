@@ -14,9 +14,8 @@ body{
 
 /* main */
 #main{
-    margin: 0 auto;
+    margin: 13px auto;
     width: 90%;
-    background-color: #31ce6e;
     box-shadow: 0px 2px 5px #000;
     padding-top: 10px;
     border-radius: 10px;
@@ -38,9 +37,75 @@ img{
 h1{
     font-family: 'Langar', cursive;
     text-align: center;
-    color: #fff;
+    color: #498f8f;
+    margin-top: 10px;
+    font-size: 3rem;
+}
+
+p{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 1.4rem;
+    font-family: monospace;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+#tribute-info{
+    margin: 0 auto;
+    width: 80%;
+}
+
+#tribute-info h3{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    line-height: 25px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: solid 1px #808080;
+}
+
+ul{
+    padding: 10px;
 }
 
 li{
     font-family: 'PT Sans', sans-serif;
+    line-height: 38px;
+    font-size: 2em;
+    word-spacing: 8px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    list-style-type: decimal;
+}
+
+strong{
+    color: #00ff2a;
+}
+
+figcaption{
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+    color: #808080;
+}
+
+.web{
+    text-transform: uppercase;
+}
+
+abbr{
+    color: #808080;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+abbr:hover{
+    color: #dc143c;
+    transition: all 1s ease;
 }
