@@ -178,7 +178,7 @@ abbr:hover {
     letter-spacing: 0;
     padding-top: 0x;
     padding-bottom: 5px;
-    list-style-type: decimal;
+    list-style-type: none;
     text-align: center;
   }
   #tribute-link .text {
