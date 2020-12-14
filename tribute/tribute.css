@@ -26,11 +26,17 @@ body {
 
 /* end of paragraph */
 /* images */
+
+#img-div {
+  width: 95%;
+  margin: 0 auto;
+}
+
 img {
-  width: 100%;
-  height: 40vmax;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  max-width: 100%;
+  /* height: 40vmax; */
+  margin: 0 auto;
+  display: block;
 }
 /* end of images */
 
@@ -82,6 +88,7 @@ li {
   padding-top: 10px;
   padding-bottom: 15px;
   list-style-type: none;
+  text-align: center;
 }
 
 strong {
@@ -111,13 +118,13 @@ abbr:hover {
   transition: all 1s ease;
 }
 
-#tribute-link {
+#something {
   width: 80%;
   margin: 0 auto;
   text-align: center;
 }
 
-#tribute-link .text {
+#something .text {
   font-size: 2em;
   font-family: "PT Sans", sans-serif;
   padding-bottom: 25px;
@@ -181,7 +188,7 @@ abbr:hover {
     list-style-type: none;
     text-align: center;
   }
-  #tribute-link .text {
+  #something .text {
     font-size: 1.5em;
     padding-bottom: 20px;
     text-transform: none;
@@ -238,14 +245,15 @@ abbr:hover {
     letter-spacing: 1px;
     padding-top: 10px;
     padding-bottom: 5px;
+    text-align: center;
   }
-  #tribute-link {
+  #something {
     width: 100%;
     margin: 0 auto;
     text-align: center;
   }
 
-  #tribute-link .text {
+  #something .text {
     font-size: 2em;
     margin-top: 10px;
     padding-top: 10px;
