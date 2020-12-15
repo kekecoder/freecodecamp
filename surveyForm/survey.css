@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: transparent;
+  background-color: #000;
+}
+
+#main {
+  background: url(children-593313_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+
+/* header */
+.header {
+  padding-top: 30px;
+}
+h1 {
+  text-align: center;
+  color: #061a8d;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+}
+
+#description {
+  font-size: 1.5rem;
+  padding-bottom: 45px;
+  text-align: center;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 1px 1px 10px #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.formgroup {
+  padding-left: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+label {
+  color: rgb(50, 143, 205);
+  text-transform: uppercase;
+  padding-top: 15px;
+  display: block;
+  font-size: 0.8rem;
+  padding-bottom: 10px;
+}
+input[type="text"],
+[type="email"] {
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  border-bottom: 3px solid red;
+  display: block;
+  color: green;
+  background-color: transparent;
+  padding: 5px;
+}
+
+::placeholder {
+  color: #000;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+:-ms-input-placeholder {
+  color: #000;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+::-ms-input-placeholder {
+  color: #000;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.control {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
