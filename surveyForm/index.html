@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="survey.css" />
+    <script
+      defer
+      src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
+
+"
+    ></script>
     <title>Survey Form</title>
   </head>
   <body>
@@ -17,18 +23,33 @@
       <div class="form">
         <form action="" id="survey-form">
           <div class="formgroup">
-            <label id="label-name" for="name">full name</label>
-            <input type="text" name="name" placeholder="full name" required />
+            <label id="name-label" for="name">full name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="full name"
+              required
+            />
           </div>
           <div class="formgroup">
-            <label id="label-email" for="email">email</label>
-            <input type="email" name="email" placeholder="email" required />
+            <label id="email-label" for="email">email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="email"
+              required
+            />
           </div>
           <div class="formgroup">
-            <label id="label-number" for="number">Telephone</label>
+            <label id="number-label" for="number">Telephone</label>
             <input
               type="number"
               name="number"
+              id="number"
+              min="10"
+              max="99"
               placeholder="telephone"
               required
             />
