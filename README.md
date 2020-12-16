@@ -14,3 +14,7 @@ Up next i will be working on the css to make it more insteresting for now, is ju
 
 <hr>
 Have added the css to style the survey form, thou yet to be completed, once it's done, i will update this page, as it is, i have been able to understand little of how css work and why it is very important. Hopefully i can be able to complete it as soon as possible so that i can move on to the next project. Thanks!!!
+
+Survey form is completed, done with the responsive design, you can click <a href="https://kekecoder.github.io/freecodecamp/surveyForm/">here</a> to check it out. Thanks.
+
+Up next is the personal portfolio site, will update it as usual, thanks.

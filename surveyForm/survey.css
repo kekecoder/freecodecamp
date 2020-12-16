@@ -17,7 +17,7 @@ body {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 1300px;
+  height: 1420px;
   opacity: 0.8;
 }
 
@@ -59,6 +59,13 @@ h1 {
   margin: 0 auto;
 }
 
+.formgroup p {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  color: #00ff00;
+  font-weight: 400;
+}
+
 label {
   color: rgb(50, 143, 205);
   text-transform: uppercase;
@@ -78,6 +85,17 @@ input[type="text"],
   color: green;
   background-color: transparent;
   padding: 5px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 15px;
+}
+
+.size {
+  font-size: 1.2rem;
+  color: #dc143c;
+  font-weight: bolder;
 }
 
 ::placeholder {
@@ -132,14 +150,30 @@ button:hover {
 }
 
 /* responsive design */
-@media (max-width: 499px) {
+@media (max-width: 500px) {
   #main {
-    background: url(children-593313_1920.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
     height: 1450px;
+  }
+  .form {
+    margin-top: 20px;
+    width: 100%;
+    box-shadow: none;
+    padding-top: 20px;
+    padding-bottom: 11px;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    border-radius: 0;
+    /* background-color: transparent; */
     opacity: 0.8;
+  }
+  .formgroup {
+    width: 90%;
+    margin: 0;
+  }
+  .formgroup > p {
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 500;
   }
 }
