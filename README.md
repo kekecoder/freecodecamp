@@ -15,6 +15,7 @@ Up next i will be working on the css to make it more insteresting for now, is ju
 <hr>
 Have added the css to style the survey form, thou yet to be completed, once it's done, i will update this page, as it is, i have been able to understand little of how css work and why it is very important. Hopefully i can be able to complete it as soon as possible so that i can move on to the next project. Thanks!!!
 
-Survey form is completed, done with the responsive design, you can click <a href="https://kekecoder.github.io/freecodecamp/surveyForm/">here</a> to check it out. Thanks.
+Survey form is completed, done with the responsive design, you can click <a href="https://kekecoder.github.io/freecodecamp/surveyForm/">here</a> to check it out. Thanks.<br>
+Well have took sometime out to attend to other needs, am glad to be back after 2months, well, am working on the next project which is a Product Landing Page, well no product on mind, but decides to work on TREES as a project, will drop the link once am done. What's left is that am aout ti start working on the CSS aspect to make it more interesting. The good thing is that am learning, and am enjoying it.
 
 Up next is the personal portfolio site, will update it as usual, thanks.
